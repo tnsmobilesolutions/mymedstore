@@ -108531,7 +108531,7 @@ case 7:m=d
 l=A.c5(J.a4(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.B(n.a.Nw("http://zigru.in:8908/medInven/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$uZ)
+return A.B(n.a.Nw("https://mymedstore.in:8908/mymedstore/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$uZ)
 case 8:j=d
 n.b=j
 j.toString
@@ -108571,7 +108571,7 @@ case 7:m=d
 l=A.c5(J.a4(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.B(n.a.Nw("http://zigru.in:8908/medInven/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$z0)
+return A.B(n.a.Nw("https://mymedstore.in:8908/mymedstore/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$z0)
 case 8:j=d
 n.b=j
 j.toString
@@ -108613,7 +108613,7 @@ l=A.c5(J.a4(m.a,"jwtToken"))
 k=null
 h=t.z
 s=8
-return A.B(n.a.a10(0,"http://zigru.in:8908/medInven/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$p8)
+return A.B(n.a.a10(0,"https://mymedstore.in:8908/mymedstore/"+a,b,A.aoJ(A.a_(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$p8)
 case 8:j=d
 k=n.Au(j)
 h=k
@@ -108644,7 +108644,7 @@ var $async$FL=A.u(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 m=null
 s=7
-return A.B(n.a.ayL(0,"http://zigru.in:8908/medInven/"+a,t.z),$async$FL)
+return A.B(n.a.ayL(0,"https://mymedstore.in:8908/mymedstore/"+a,t.z),$async$FL)
 case 7:l=c
 m=n.Au(l)
 j=m
@@ -108866,7 +108866,7 @@ xI(a){return this.asH(a)},
 asH(a){var s=0,r=A.y(t.z),q,p=this,o,n
 var $async$xI=A.u(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.b8Z(A.hn("http://zigru.in:8908/medInven/"+a,0,null)),$async$xI)
+return A.B(A.b8Z(A.hn("https://mymedstore.in:8908/mymedstore/"+a,0,null)),$async$xI)
 case 3:o=c
 n=p.JU(o)
 q=[n,o.b===200&&!0]
@@ -108886,7 +108886,7 @@ case 3:h=f.c5(e.a4(c.a,"jwtToken"))
 p=5
 k=t.N
 s=8
-return A.B(A.b89(A.hn("http://zigru.in:8908/medInven/"+a,0,null),A.a_(["Authorization","Bearer "+A.c(h)],k,k)),$async$dT)
+return A.B(A.b89(A.hn("https://mymedstore.in:8908/mymedstore/"+a,0,null),A.a_(["Authorization","Bearer "+A.c(h)],k,k)),$async$dT)
 case 8:m=c
 s=9
 return A.B(n.JU(m),$async$dT)
@@ -108912,7 +108912,7 @@ rB(a){return this.a4r(a)},
 a4r(a){var s=0,r=A.y(t.Ct),q,p=this,o,n
 var $async$rB=A.u(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.b89(A.hn("http://zigru.in:8908/medInven/"+a,0,null),null),$async$rB)
+return A.B(A.b89(A.hn("https://mymedstore.in:8908/mymedstore/"+a,0,null),null),$async$rB)
 case 3:o=p.JU(c)
 n=J.ae(o)
 s=5
@@ -109005,7 +109005,7 @@ EX(a){return this.ayB(a)},
 ayB(a){var s=0,r=A.y(t.k8),q
 var $async$EX=A.u(function(b,c){if(b===1)return A.v(c,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.m7(null).ayw("http://zigru.in:8908/medInven/sale/prescriptionimage",a,t.z),$async$EX)
+return A.B(A.m7(null).ayw("https://mymedstore.in:8908/mymedstore/sale/prescriptionimage",a,t.z),$async$EX)
 case 3:q=c
 s=1
 break
