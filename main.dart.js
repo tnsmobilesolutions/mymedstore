@@ -114202,7 +114202,7 @@ case 7:m=d
 l=A.bY(J.a0(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.x(n.a.G9("https://mymedstore.in:4000/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$rC)
+return A.x(n.a.G9("https://mymedstore.in:8908/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$rC)
 case 8:j=d
 n.b=j
 j.toString
@@ -114237,7 +114237,7 @@ var $async$AW=A.r(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:j=null
 p=4
 s=7
-return A.x(n.a.aC_("https://mymedstore.in:4000/mymedstore/"+a,b,t.z),$async$AW)
+return A.x(n.a.aC_("https://mymedstore.in:8908/mymedstore/"+a,b,t.z),$async$AW)
 case 7:l=d
 n.b=l
 l.toString
@@ -114275,7 +114275,7 @@ case 7:m=d
 l=A.bY(J.a0(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.x(n.a.G9("https://mymedstore.in:4000/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$zF)
+return A.x(n.a.G9("https://mymedstore.in:8908/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$zF)
 case 8:j=d
 n.b=j
 j.toString
@@ -114317,7 +114317,7 @@ l=A.bY(J.a0(m.a,"jwtToken"))
 k=null
 h=t.z
 s=8
-return A.x(n.a.P7(0,"https://mymedstore.in:4000/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$mJ)
+return A.x(n.a.P7(0,"https://mymedstore.in:8908/mymedstore/"+a,b,A.IP(A.a_(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$mJ)
 case 8:j=d
 k=n.wK(j)
 h=k
@@ -114352,7 +114352,7 @@ case 6:n=c
 m=A.bY(J.a0(n.a,"jwtToken"))
 k=t.z
 s=7
-return A.x(o.a.aCg(0,"https://mymedstore.in:4000/mymedstore/"+a,A.IP(A.a_(["Authorization","Bearer "+A.c(m)],t.N,k)),k),$async$kl)
+return A.x(o.a.aCg(0,"https://mymedstore.in:8908/mymedstore/"+a,A.IP(A.a_(["Authorization","Bearer "+A.c(m)],t.N,k)),k),$async$kl)
 case 7:q=1
 s=5
 break
@@ -114373,7 +114373,7 @@ var $async$H4=A.r(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 m=null
 s=7
-return A.x(n.a.aCf(0,"https://mymedstore.in:4000/mymedstore/"+a,t.z),$async$H4)
+return A.x(n.a.aCf(0,"https://mymedstore.in:8908/mymedstore/"+a,t.z),$async$H4)
 case 7:l=c
 m=n.wK(l)
 j=m
@@ -114708,7 +114708,7 @@ kl(a){return this.avY(a)},
 avY(a){var s=0,r=A.w(t.z),q,p=this,o,n
 var $async$kl=A.r(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:s=3
-return A.x(A.bfX(A.hH("https://mymedstore.in:4000/mymedstore/"+a,0,null)),$async$kl)
+return A.x(A.bfX(A.hH("https://mymedstore.in:8908/mymedstore/"+a,0,null)),$async$kl)
 case 3:o=c
 n=p.Ln(o)
 q=[n,o.b===200&&!0]
@@ -114728,7 +114728,7 @@ case 3:h=f.bY(e.a0(c.a,"jwtToken"))
 p=5
 k=t.N
 s=8
-return A.x(A.bf5(A.hH("https://mymedstore.in:4000/mymedstore/"+a,0,null),A.a_(["Authorization","Bearer "+A.c(h)],k,k)),$async$cO)
+return A.x(A.bf5(A.hH("https://mymedstore.in:8908/mymedstore/"+a,0,null),A.a_(["Authorization","Bearer "+A.c(h)],k,k)),$async$cO)
 case 8:m=c
 s=9
 return A.x(n.Ln(m),$async$cO)
@@ -114754,7 +114754,7 @@ t4(a){return this.a6F(a)},
 a6F(a){var s=0,r=A.w(t.Ct),q,p=this,o,n
 var $async$t4=A.r(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:s=3
-return A.x(A.bf5(A.hH("https://mymedstore.in:4000/mymedstore/"+a,0,null),null),$async$t4)
+return A.x(A.bf5(A.hH("https://mymedstore.in:8908/mymedstore/"+a,0,null),null),$async$t4)
 case 3:o=p.Ln(c)
 n=J.a9(o)
 s=5
@@ -114864,7 +114864,7 @@ return A.x(A.k4(),$async$zG)
 case 3:p=n.bY(m.a0(c.a,"jwtToken"))
 o=t.z
 s=4
-return A.x(A.hY(null).G9("https://mymedstore.in:4000/mymedstore/sale/prescriptionimage",a,A.IP(A.a_(["Authorization","Bearer "+A.c(p)],t.N,o)),o),$async$zG)
+return A.x(A.hY(null).G9("https://mymedstore.in:8908/mymedstore/sale/prescriptionimage",a,A.IP(A.a_(["Authorization","Bearer "+A.c(p)],t.N,o)),o),$async$zG)
 case 4:q=c
 s=1
 break
