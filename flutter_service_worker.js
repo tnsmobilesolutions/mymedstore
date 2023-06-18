@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "47f97da0979d8b34bcf006b37b69bb26",
-"index.html": "9aa59b4720368f76a943a9cf3aefe93c",
-"/": "9aa59b4720368f76a943a9cf3aefe93c",
-"main.dart.js": "3601a64f01d59551241ae0a3259ef5b9",
+"index.html": "3e561a6c6c038467aea35c58f735ba40",
+"/": "3e561a6c6c038467aea35c58f735ba40",
+"main.dart.js": "07867085717c397590bfff1e8e305a60",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -30,15 +30,10 @@ const RESOURCES = {
 "assets/assets/images/no_data.png": "b3cc0364be3ee1ccb1b50ab0046bb28f",
 "assets/assets/images/myMedStore.png": "24e3e87b83d0a224b2d30d6880435955",
 "MyMedStore.png": "5ad25535124d4ff3c6af2107983c9b94",
-"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
-"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
-"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
-"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a"
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
