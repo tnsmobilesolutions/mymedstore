@@ -2,9 +2,14 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
+<<<<<<< HEAD
 
 const RESOURCES = {"assets/AssetManifest.bin": "47f0e6b2e15bbbb61af6b02262698dae",
 "assets/AssetManifest.json": "cfac0d16a3fcdb094d5f20c8a3f2eb65",
+=======
+const RESOURCES = {
+  "assets/AssetManifest.json": "cfac0d16a3fcdb094d5f20c8a3f2eb65",
+>>>>>>> 53c6224a810868a044f0ee5645e0fd9c2fb94890
 "assets/assets/cough_syrup.png": "e86b370c367a8af5a94ad6a4556e48ee",
 "assets/assets/cream.png": "c66e292fd5a827ec3a5c332523e03a71",
 "assets/assets/dermal_patch.png": "f2915aa9eeab0595df153d47f4f17f38",
@@ -36,18 +41,48 @@ const RESOURCES = {"assets/AssetManifest.bin": "47f0e6b2e15bbbb61af6b02262698dae
 "assets/assets/syringe.png": "6e8a5f6f40dd5b5bb7adb9221112bd46",
 "assets/assets/syrup.png": "232933e8fe91d35e273fac647c83054c",
 "assets/assets/tablets.png": "6c4e1070ce8513a204dad074eb63a0fc",
+<<<<<<< HEAD
 "assets/FontManifest.json": "7e89dabed3ee2c8185981d4c98611c0d",
 "assets/fonts/MaterialIcons-Regular.otf": "6fe62d267479539b0b3d992c664db7f6",
 "assets/NOTICES": "5e673362b95bb10c6eaead34dabb144e",
 "assets/packages/authentication/assets/images/login.png": "1590ee9c438d8f4946a37da840c65953",
 "assets/packages/authentication/assets/images/loginbackground.png": "763a42a889a803701db274188a6fcef9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+=======
+"assets/cough_syrup.png": "e86b370c367a8af5a94ad6a4556e48ee",
+"assets/cream.png": "c66e292fd5a827ec3a5c332523e03a71",
+"assets/dermal_patch.png": "f2915aa9eeab0595df153d47f4f17f38",
+"assets/drop.png": "bede4c89dbeee2d9e74b6b8c56dfb106",
+"assets/emulsion.png": "bd7cf1798fa66cdbc95ad48a23a19882",
+"assets/enema.png": "f8c136e67a809965167694d75881a1b8",
+"assets/FontManifest.json": "7e89dabed3ee2c8185981d4c98611c0d",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/gel.png": "0e03c0477eb4f2c228edff316f5b493d",
+"assets/granules.png": "55621b4fc6e5cd5220ecb75b62437583",
+"assets/handwash.png": "6df06fd50ddf0c7e360fa6c0a67a6d0c",
+"assets/images/9176210_6617.jpg": "51a1da730cbf9ca16400a6c7a3f35fc8",
+"assets/images/loginImage.png": "9f66b40e71ef157f0b2ef11201f62878",
+"assets/images/med.png": "dc1f92af24e6452d931d72db88d78ac8",
+"assets/images/med1.png": "7e3f88ced96bda3ef3b3d4cf672b039d",
+"assets/images/no_data.png": "b3cc0364be3ee1ccb1b50ab0046bb28f",
+"assets/images/purchase_success1.png": "414304e8de29b491a49773ea163d520d",
+"assets/infusion.png": "730a51fb6d038325a2ff558ebcc4ceac",
+"assets/kit.png": "223c3428a061dda3421d9c7871d97516",
+"assets/liquid.png": "6496b34c3c5802cb0fa61f8d86028179",
+"assets/myMedStore.png": "24e3e87b83d0a224b2d30d6880435955",
+"assets/NOTICES": "b225d146a801eb626476b9602642d18f",
+"assets/ointment.png": "d032a0bd63d9bc6e1b761c165bdfa23c",
+"assets/packages/authentication/assets/images/login.png": "1590ee9c438d8f4946a37da840c65953",
+"assets/packages/authentication/assets/images/loginbackground.png": "763a42a889a803701db274188a6fcef9",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+>>>>>>> 53c6224a810868a044f0ee5645e0fd9c2fb94890
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "56e2c9cedd97f10e7e5f1cebd85d53e3",
 "assets/packages/line_icons/lib/assets/fonts/LineIcons.ttf": "23621397bc1906a79180a918e98f35b2",
 "assets/packages/unicons/icons/UniconsLine.ttf": "9e91f67b470d70332db97056f4074ac3",
 "assets/packages/unicons/icons/UniconsSolid.ttf": "4d93206a45f31601d12c705d70d33464",
 "assets/packages/unicons/icons/UniconsThinline.ttf": "a986c57934b947d0235ae8bf8875367f",
+<<<<<<< HEAD
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
 "canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
 "canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
@@ -57,16 +92,45 @@ const RESOURCES = {"assets/AssetManifest.bin": "47f0e6b2e15bbbb61af6b02262698dae
 "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
 "canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
+=======
+"assets/pill.png": "4fce7c9cbfc325d811b3577fb925c2d0",
+"assets/protein_supplement.png": "7827f3d4e346f028d603e0eefb0e90ed",
+"assets/sanitary_napkin.png": "e9967856a716e29aedf21a7cfdc1c23a",
+"assets/solution.png": "ce75a922ff710ad289c21830cacc6daf",
+"assets/spray.png": "2e16ead5e4e1cc5c2b48b2208d4e6c5f",
+"assets/strips.png": "b3f694b85bedb7bb751c64ef4a50e308",
+"assets/supp.png": "a50efc79ac0793036efa85c03f874844",
+"assets/suspension.png": "5d0754bd65dc816f44cd16d71de79841",
+"assets/syringe.png": "6e8a5f6f40dd5b5bb7adb9221112bd46",
+"assets/syrup.png": "232933e8fe91d35e273fac647c83054c",
+"assets/tablets.png": "6c4e1070ce8513a204dad074eb63a0fc",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+>>>>>>> 53c6224a810868a044f0ee5645e0fd9c2fb94890
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+<<<<<<< HEAD
 "index.html": "61bd1b47e03362699300dad4b4d269d7",
 "/": "61bd1b47e03362699300dad4b4d269d7",
 "main.dart.js": "c9f4d4dfb8ba597cabc87e0cb22f59d0",
 "manifest.json": "1e9d734599368deb066f4aff33eaaa4f",
 "MyMedStore.png": "5ad25535124d4ff3c6af2107983c9b94",
 "version.json": "47f97da0979d8b34bcf006b37b69bb26"};
+=======
+"index.html": "37c3fc2c1eb97491039a34f152a95315",
+"/": "37c3fc2c1eb97491039a34f152a95315",
+"main.dart.js": "3d4b3024ec89d2d925d03e31c1ca4bd5",
+"manifest.json": "1e9d734599368deb066f4aff33eaaa4f",
+"MyMedStore.png": "5ad25535124d4ff3c6af2107983c9b94",
+"version.json": "47f97da0979d8b34bcf006b37b69bb26"
+};
+
+>>>>>>> 53c6224a810868a044f0ee5645e0fd9c2fb94890
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
