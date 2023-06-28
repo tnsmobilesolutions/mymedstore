@@ -2,47 +2,78 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "version.json": "47f97da0979d8b34bcf006b37b69bb26",
-"index.html": "fb17a80167423d4cf803305d838e89fe",
-"/": "fb17a80167423d4cf803305d838e89fe",
-"main.dart.js": "299c4335832d4c8da0f49d691048b09d",
-"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "6c3ea708e7533be6fcd8be9c551045c7",
-"assets/AssetManifest.json": "89462831bafbc253f7739dc310a9b747",
-"assets/NOTICES": "2ac68260d5fc6137b743fc03c1eaca8f",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/fluttertoast/assets/toastify.js": "56e2c9cedd97f10e7e5f1cebd85d53e3",
-"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
-"assets/packages/authentication/assets/images/login.png": "1590ee9c438d8f4946a37da840c65953",
-"assets/packages/authentication/assets/images/loginbackground.png": "763a42a889a803701db274188a6fcef9",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/assets/images/loginImage.png": "9f66b40e71ef157f0b2ef11201f62878",
+
+const RESOURCES = {"assets/AssetManifest.bin": "47f0e6b2e15bbbb61af6b02262698dae",
+"assets/AssetManifest.json": "cfac0d16a3fcdb094d5f20c8a3f2eb65",
+"assets/assets/cough_syrup.png": "e86b370c367a8af5a94ad6a4556e48ee",
+"assets/assets/cream.png": "c66e292fd5a827ec3a5c332523e03a71",
+"assets/assets/dermal_patch.png": "f2915aa9eeab0595df153d47f4f17f38",
+"assets/assets/drop.png": "bede4c89dbeee2d9e74b6b8c56dfb106",
+"assets/assets/emulsion.png": "bd7cf1798fa66cdbc95ad48a23a19882",
+"assets/assets/enema.png": "f8c136e67a809965167694d75881a1b8",
+"assets/assets/gel.png": "0e03c0477eb4f2c228edff316f5b493d",
+"assets/assets/granules.png": "55621b4fc6e5cd5220ecb75b62437583",
+"assets/assets/handwash.png": "6df06fd50ddf0c7e360fa6c0a67a6d0c",
 "assets/assets/images/9176210_6617.jpg": "51a1da730cbf9ca16400a6c7a3f35fc8",
-"assets/assets/images/purchase_success1.png": "414304e8de29b491a49773ea163d520d",
+"assets/assets/images/loginImage.png": "9f66b40e71ef157f0b2ef11201f62878",
 "assets/assets/images/med.png": "dc1f92af24e6452d931d72db88d78ac8",
 "assets/assets/images/med1.png": "7e3f88ced96bda3ef3b3d4cf672b039d",
 "assets/assets/images/no_data.png": "b3cc0364be3ee1ccb1b50ab0046bb28f",
-"assets/assets/images/myMedStore.png": "24e3e87b83d0a224b2d30d6880435955",
+"assets/assets/images/purchase_success1.png": "414304e8de29b491a49773ea163d520d",
+"assets/assets/infusion.png": "730a51fb6d038325a2ff558ebcc4ceac",
+"assets/assets/kit.png": "223c3428a061dda3421d9c7871d97516",
+"assets/assets/liquid.png": "6496b34c3c5802cb0fa61f8d86028179",
+"assets/assets/myMedStore.png": "24e3e87b83d0a224b2d30d6880435955",
+"assets/assets/ointment.png": "d032a0bd63d9bc6e1b761c165bdfa23c",
+"assets/assets/pill.png": "4fce7c9cbfc325d811b3577fb925c2d0",
+"assets/assets/protein_supplement.png": "7827f3d4e346f028d603e0eefb0e90ed",
+"assets/assets/sanitary_napkin.png": "e9967856a716e29aedf21a7cfdc1c23a",
+"assets/assets/solution.png": "ce75a922ff710ad289c21830cacc6daf",
+"assets/assets/spray.png": "2e16ead5e4e1cc5c2b48b2208d4e6c5f",
+"assets/assets/strips.png": "b3f694b85bedb7bb751c64ef4a50e308",
+"assets/assets/supp.png": "a50efc79ac0793036efa85c03f874844",
+"assets/assets/suspension.png": "5d0754bd65dc816f44cd16d71de79841",
+"assets/assets/syringe.png": "6e8a5f6f40dd5b5bb7adb9221112bd46",
+"assets/assets/syrup.png": "232933e8fe91d35e273fac647c83054c",
+"assets/assets/tablets.png": "6c4e1070ce8513a204dad074eb63a0fc",
+"assets/FontManifest.json": "7e89dabed3ee2c8185981d4c98611c0d",
+"assets/fonts/MaterialIcons-Regular.otf": "6fe62d267479539b0b3d992c664db7f6",
+"assets/NOTICES": "5e673362b95bb10c6eaead34dabb144e",
+"assets/packages/authentication/assets/images/login.png": "1590ee9c438d8f4946a37da840c65953",
+"assets/packages/authentication/assets/images/loginbackground.png": "763a42a889a803701db274188a6fcef9",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
+"assets/packages/fluttertoast/assets/toastify.js": "56e2c9cedd97f10e7e5f1cebd85d53e3",
+"assets/packages/line_icons/lib/assets/fonts/LineIcons.ttf": "23621397bc1906a79180a918e98f35b2",
+"assets/packages/unicons/icons/UniconsLine.ttf": "9e91f67b470d70332db97056f4074ac3",
+"assets/packages/unicons/icons/UniconsSolid.ttf": "4d93206a45f31601d12c705d70d33464",
+"assets/packages/unicons/icons/UniconsThinline.ttf": "a986c57934b947d0235ae8bf8875367f",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
+"canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
+"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
+"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
+"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
+"flutter.js": "6b515e434cea20006b3ef1726d2c8894",
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"index.html": "61bd1b47e03362699300dad4b4d269d7",
+"/": "61bd1b47e03362699300dad4b4d269d7",
+"main.dart.js": "c9f4d4dfb8ba597cabc87e0cb22f59d0",
+"manifest.json": "1e9d734599368deb066f4aff33eaaa4f",
 "MyMedStore.png": "5ad25535124d4ff3c6af2107983c9b94",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
-};
-
+"version.json": "47f97da0979d8b34bcf006b37b69bb26"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -53,7 +84,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -75,6 +105,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -100,6 +132,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -110,7 +144,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -150,7 +183,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -163,7 +195,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -184,7 +215,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
