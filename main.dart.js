@@ -112634,25 +112634,31 @@ h=o
 k=A.a1(h)
 if(k instanceof A.uV){l=k
 A.ad(l)
-if(l.b==="An unknown error occurred: FirebaseError: Firebase: There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found)."){k=c.Y(t.q)
+if(l.b!=null){k=l.b
+k.toString
+if(B.d.p(k,"There is no user record corresponding to this identifier. The user may have been deleted.")){k=c.Y(t.q)
 k.toString
 k.f.d8(A.dY(null,null,null,B.T,B.af,B.H,B.i,A.i("No user Please signup",null,null,null,null,null,null,null,null),B.al,B.ap,10,null,new A.a0(5,5,5,5),null,null,null,!0,null))
 q=null
 s=1
-break}else{k=t.q
-if(l.b==="An unknown error occurred: FirebaseError: Firebase: The password is invalid or the user does not have a password. (auth/wrong-password)."){A.ad(l)
-k=c.Y(k)
+break}else{k=l.b
+k.toString
+if(B.d.p(k,"Firebase: The password is invalid or the user does not have a password.")){A.ad(l)
+k=c.Y(t.q)
 k.toString
 k.f.d8(A.dY(null,null,null,B.T,B.af,B.H,B.i,A.i("Wrong password",null,null,null,null,null,null,null,null),B.al,B.ap,10,null,new A.a0(5,5,5,5),null,null,null,!0,null))
 q=null
 s=1
-break}else{A.ad(l)
-k=c.Y(k)
+break}else{A.ad("No error mesage")
+q=null
+s=1
+break}}}else{A.ad(l)
+k=c.Y(t.q)
 k.toString
 k.f.d8(A.dY(null,null,null,B.T,B.af,B.H,B.i,A.i("Sign-in failed",null,null,null,null,null,null,null,null),B.al,B.ap,10,null,new A.a0(5,5,5,5),null,null,null,!0,null))
 q=null
 s=1
-break}}}else throw h
+break}}else throw h
 s=6
 break
 case 3:s=2
