@@ -115512,7 +115512,7 @@ case 7:m=d
 l=A.c_(J.ac(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.y(n.gr3().Gs("https://mymedstore.in:5000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$rI)
+return A.y(n.gr3().Gs("https://mymedstore.in:3000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$rI)
 case 8:j=d
 n.b=j
 j.toString
@@ -115547,7 +115547,7 @@ var $async$Bd=A.r(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:j=null
 p=4
 s=7
-return A.y(n.gr3().Pp("https://mymedstore.in:5000/mymedstore/"+a,b,t.z),$async$Bd)
+return A.y(n.gr3().Pp("https://mymedstore.in:3000/mymedstore/"+a,b,t.z),$async$Bd)
 case 7:l=d
 n.b=l
 l.toString
@@ -115585,7 +115585,7 @@ case 7:m=d
 l=A.c_(J.ac(m.a,"jwtToken"))
 j=t.z
 s=8
-return A.y(n.gr3().Gs("https://mymedstore.in:5000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$zY)
+return A.y(n.gr3().Gs("https://mymedstore.in:3000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,j)),j),$async$zY)
 case 8:j=d
 n.b=j
 j.toString
@@ -115627,7 +115627,7 @@ l=A.c_(J.ac(m.a,"jwtToken"))
 k=null
 h=t.z
 s=8
-return A.y(n.gr3().Px(0,"https://mymedstore.in:5000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$mP)
+return A.y(n.gr3().Px(0,"https://mymedstore.in:3000/mymedstore/"+a,b,A.J6(A.ad(["Authorization","Bearer "+A.c(l)],t.N,h)),h),$async$mP)
 case 8:j=d
 k=n.x3(j)
 h=k
@@ -115662,7 +115662,7 @@ case 6:n=c
 m=A.c_(J.ac(n.a,"jwtToken"))
 k=t.z
 s=7
-return A.y(o.gr3().aDc(0,"https://mymedstore.in:5000/mymedstore/"+a,A.J6(A.ad(["Authorization","Bearer "+A.c(m)],t.N,k)),k),$async$pd)
+return A.y(o.gr3().aDc(0,"https://mymedstore.in:3000/mymedstore/"+a,A.J6(A.ad(["Authorization","Bearer "+A.c(m)],t.N,k)),k),$async$pd)
 case 7:q=1
 s=5
 break
@@ -115683,7 +115683,7 @@ var $async$Hm=A.r(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 m=null
 s=7
-return A.y(n.gr3().aDb(0,"https://mymedstore.in:5000/mymedstore/"+a,t.z),$async$Hm)
+return A.y(n.gr3().aDb(0,"https://mymedstore.in:3000/mymedstore/"+a,t.z),$async$Hm)
 case 7:l=c
 m=n.x3(l)
 j=m
@@ -115795,7 +115795,7 @@ return A.y(A.jt(),$async$wa)
 case 3:n=k.c_(j.ac(c.a,"jwtToken"))
 m=t.N
 s=4
-return A.y(A.b3h(A.ht("https://mymedstore.in:5000/mymedstore/sale/prescriptionimage/"+a,0,null),A.ad(["Authorization","Bearer "+A.c(n)],m,m)),$async$wa)
+return A.y(A.b3h(A.ht("https://mymedstore.in:3000/mymedstore/sale/prescriptionimage/"+a,0,null),A.ad(["Authorization","Bearer "+A.c(n)],m,m)),$async$wa)
 case 4:l=c
 try{if(l.b===200){m=l.w
 q=m
@@ -116043,7 +116043,7 @@ case 3:h=f.c_(e.ac(c.a,"jwtToken"))
 p=5
 k=t.N
 s=8
-return A.y(A.b3h(A.ht("https://mymedstore.in:5000/mymedstore/"+a,0,null),A.ad(["Authorization","Bearer "+A.c(h)],k,k)),$async$cD)
+return A.y(A.b3h(A.ht("https://mymedstore.in:3000/mymedstore/"+a,0,null),A.ad(["Authorization","Bearer "+A.c(h)],k,k)),$async$cD)
 case 8:m=c
 s=9
 return A.y(n.Xj(m),$async$cD)
@@ -116069,7 +116069,7 @@ tc(a){return this.a6W(a)},
 a6W(a){var s=0,r=A.w(t.Ct),q,p=this,o,n
 var $async$tc=A.r(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:s=3
-return A.y(A.b3h(A.ht("https://mymedstore.in:5000/mymedstore/"+a,0,null),null),$async$tc)
+return A.y(A.b3h(A.ht("https://mymedstore.in:3000/mymedstore/"+a,0,null),null),$async$tc)
 case 3:o=p.Xj(c)
 n=J.aa(o)
 s=5
@@ -116111,7 +116111,7 @@ case 3:h=e.ad([d,"Bearer "+c.c(b.c_(a.ac(a2.a,"jwtToken")))],i,i)
 g=h
 p=5
 s=8
-return A.y(A.b3h(A.ht("https://mymedstore.in:5000/mymedstore/"+a0,0,null),g),$async$cD)
+return A.y(A.b3h(A.ht("https://mymedstore.in:3000/mymedstore/"+a0,0,null),g),$async$cD)
 case 8:m=a2
 s=9
 return A.y(n.anD(m),$async$cD)
@@ -116163,7 +116163,7 @@ var $async$wl=A.r(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.y(n.c.Pp("https://mymedstore.in:5000/mymedstore/sendotp",A.ad(["email",a],k,k),t.z),$async$wl)
+return A.y(n.c.Pp("https://mymedstore.in:3000/mymedstore/sendotp",A.ad(["email",a],k,k),t.z),$async$wl)
 case 7:m=c
 if(m.c===200){k=m.a
 q=k
@@ -116193,7 +116193,7 @@ var $async$Hp=A.r(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.y(n.c.Pp("https://mymedstore.in:5000/mymedstore/verifyotp",A.ad(["email",a,"otp",b],k,k),t.z),$async$Hp)
+return A.y(n.c.Pp("https://mymedstore.in:3000/mymedstore/verifyotp",A.ad(["email",a,"otp",b],k,k),t.z),$async$Hp)
 case 7:m=d
 if(m.c===200){k=m.a
 q=k
@@ -116294,7 +116294,7 @@ case 3:p=l.c_(k.ac(c.a,"jwtToken"))
 o=t.N
 n=t.z
 s=4
-return A.y(A.ep(null).Gs("https://mymedstore.in:5000/mymedstore/sale/prescriptionimage",a,A.J6(A.ad(["Authorization","Bearer "+A.c(p)],o,n)),n),$async$zZ)
+return A.y(A.ep(null).Gs("https://mymedstore.in:3000/mymedstore/sale/prescriptionimage",a,A.J6(A.ad(["Authorization","Bearer "+A.c(p)],o,n)),n),$async$zZ)
 case 4:m=c
 q=A.ad(["prescriptionId",J.ac(m.a,"prescriptionId"),"filename",J.ac(m.a,"filename"),"statuscode",m.c],o,n)
 s=1
