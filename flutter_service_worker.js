@@ -92,9 +92,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "47f0e6b2e15bbbb61af6b02262698dae
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "66d7575350e59426f06d83e288a06805",
-"/": "66d7575350e59426f06d83e288a06805",
-"main.dart.js": "299fcc7df2f07ec6282f2c00162366b4",
+"index.html": "78765f9f7e693bfc035fc48af1e52e6a",
+"/": "78765f9f7e693bfc035fc48af1e52e6a",
+"main.dart.js": "2823f5d54136c0ea0ff606b2b7a97107",
 "manifest.json": "1e9d734599368deb066f4aff33eaaa4f",
 "MyMedStore.png": "5ad25535124d4ff3c6af2107983c9b94",
 "version.json": "47f97da0979d8b34bcf006b37b69bb26"};
