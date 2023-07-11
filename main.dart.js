@@ -112613,7 +112613,7 @@ $1(a){return new A.ps("stock",null)},
 $S:120}
 A.b5f.prototype={
 $2(a,b){var s=null,r=b.b
-if(r!=null)return A.dk(!1,A.f("Stock to be expire - "+A.c(r)+".",s,s,s,s,s,s,s,s),B.m,s,s,s,s,s,new A.b5a(a),s,s)
+if(r!=null)return A.dk(!1,A.f("Nearest expiry date - "+A.c(r)+".",s,s,s,s,s,s,s,s),B.m,s,s,s,s,s,new A.b5a(a),s,s)
 else return A.dk(!1,A.f("Nearest expiry date - Loading...",s,s,s,s,s,s,s,s),B.m,s,s,s,s,s,new A.b5b(),s,s)},
 $S:237}
 A.b5a.prototype={
